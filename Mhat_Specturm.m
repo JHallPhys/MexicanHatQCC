@@ -23,7 +23,7 @@ omega = 1.0;
 gamma = 0.05;
 beta = 0.05;
 delta = 0.1;
-
+ 'LOL'
 
 H=(-omega-1i*gamma)*(ac*a)+(beta)*(ac*ac*a*a)+(delta)*Q;
 [psi,En] = schur(H); % psi are the Schur eigenfns and En matrix of eigs
