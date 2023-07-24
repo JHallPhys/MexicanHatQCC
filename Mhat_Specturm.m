@@ -24,6 +24,7 @@ gamma = 0.05;
 beta = 0.05;
 delta = 0.1;
  'LOL'
+ '24/07/2023'
 
 H=(-omega-1i*gamma)*(ac*a)+(beta)*(ac*ac*a*a)+(delta)*Q;
 [psi,En] = schur(H); % psi are the Schur eigenfns and En matrix of eigs
